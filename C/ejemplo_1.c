@@ -5,6 +5,12 @@ void ejemplo1() {
     printf("Ejemplo 1: x = %d, *p = %d\n", x, *p);
 }
 
+/*
+&x extrae la posicion de memoria de la variable
+*p  para indicarle a la variable que va a ser un puntero
+
+*/
+
 int main() {
     ejemplo1();
     return 0;
