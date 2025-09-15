@@ -23,6 +23,8 @@ Se muestra cómo modificar el valor de una variable a través de su puntero.
 - int *p = &x; // Puntero a x
 - *p = 20; // Se modifica el valor de x usando el puntero
 - printf(...) // Se imprime el nuevo valor de x
++ El *p no sirve como x=20, pues se usa solo una variable, X
++ Mientras que usar x=20 crea otra variable, la original 10, y luego otra con 20
 */
 void ejemplo2() {
     int x = 10;
