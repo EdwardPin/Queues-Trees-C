@@ -39,6 +39,9 @@ Se muestra cómo un puntero puede apuntar al primer elemento de un array.
 - int arr[3] = {1, 2, 3}; // Array de enteros
 - int *p = arr; // Puntero al primer elemento del array
 - printf(...) // Se imprime el valor del primer elemento usando el puntero
++Cada int son 4 bits, 100 inicia, 104 un int, y mas de una variable seria 108,112, etc
++Si se coloca el arr sin nada, es la primera letra
++Si uno lo quiere cambiar, toca hacer cast (NI IDEA)
 */
 void ejemplo3() {
     int arr[3] = {1, 2, 3};
